@@ -1,0 +1,88 @@
+{
+  "checks": {
+    "random-check_0": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 1
+    },
+    "random-check_1": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 2
+    },
+    "random-check_2": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 1
+    },
+    "random-check_3": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 2
+    },
+    "random-check_4": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 1
+    },
+    "random-check_5": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 2
+    },
+    "random-check_6": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 1
+    },
+    "random-check_7": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 2
+    },
+    "random-check_8": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 1
+    },
+    "random-check_9": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 2
+    },
+    "random-check_10": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 1
+    },
+    "random-check_11": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 2
+    },
+    "check_tcp": {
+      "type": "metric",
+      "command": "/usr/lib/nagios/plugins/check_tcp -H 10.0.0.10 -p 3000 -w 10 -c 20",
+      "standalone": true,
+      "interval": 1
+    },
+    "check_host": {
+      "type": "metric",
+      "command": "/usr/lib/nagios/plugins/check_host -H 8.8.8.8",
+      "standalone": true,
+      "interval": 1
+    }
+  }
+}
