@@ -4,7 +4,7 @@
       "cert_chain_file": "/etc/sensu/ssl/cert.pem",
       "private_key_file": "/etc/sensu/ssl/key.pem"
     },
-    "host": "10.0.0.10",
+    "host": "rabbitmq.service.consul",
     "port": 5671,
     "vhost": "/sensu",
     "user": "sensu",
