@@ -71,18 +71,6 @@
       "command": "/etc/sensu/plugins/random.sh",
       "standalone": true,
       "interval": 2
-    },
-    "check_tcp": {
-      "type": "metric",
-      "command": "/usr/lib/nagios/plugins/check_tcp -H 10.0.0.10 -p 3000 -w 10 -c 20",
-      "standalone": true,
-      "interval": 1
-    },
-    "check_host": {
-      "type": "metric",
-      "command": "/usr/lib/nagios/plugins/check_host -H 8.8.8.8",
-      "standalone": true,
-      "interval": 1
     }
   }
 }
