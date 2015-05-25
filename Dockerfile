@@ -10,6 +10,15 @@ RUN \
 	apt-get update && \
 	DEBIAN_FRONTEND=noninteractive apt-get install -y sensu \
 	nagios-plugins
+# TODO
+# https://www.monitoring-plugins.org/download/monitoring-plugins-2.1.1.tar.gz
+# http://edcint.co.nz/checkwmiplus/sites/default/files/check_wmi_plus.v1.59.tar.gz
+# http://www.openvas.org/download/wmi/wmi-1.3.14.tar.bz2
+# http://techedemic.com/2012/11/05/installing-wmic-in-ubuntu-12-04-lts-64-bit-desktop/
+# make "CPP=gcc -E -ffreestanding"
+# apt-get install libconfig-inifiles-perl \
+# libdatetime-perl libset-scalar-perl build-essential perl-base libtemplate-plugin-number-format-perl \
+# apt-get install autoconf openssh-server
 
 # Add the sensu-server config files
 COPY files/client.json /etc/sensu/client.json
