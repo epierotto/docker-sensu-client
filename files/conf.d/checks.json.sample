@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "random-check_0": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 1
+    },
+    "random-check_1": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 2
+    },
+    "random-check_2": {
+      "type": "metric",
+      "command": "/etc/sensu/plugins/random.sh",
+      "standalone": true,
+      "interval": 1
+    }
+  }
+}

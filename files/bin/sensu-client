@@ -1,0 +1,6 @@
+#!/bin/bash
+
+/usr/local/bin/client_config.rb
+/usr/local/bin/config_checks.sh
+
+/opt/sensu/bin/sensu-client -c /etc/sensu/client.json -d /etc/sensu/conf.d $@
