@@ -3,4 +3,4 @@
 /usr/local/bin/client_config.rb
 /usr/local/bin/config_checks.sh
 
-/opt/sensu/bin/sensu-client -c /etc/sensu/client.json -d /etc/sensu/conf.d $@
+/opt/sensu/bin/sensu-client -c /etc/sensu/client.json -d /etc/sensu/conf.d > /dev/null
